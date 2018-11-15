@@ -5,9 +5,9 @@
 
 　　**面向对象**:将问题分解成一个一个的步骤，对每个步骤进行相应的抽象，形成对象，通过不同对象之间的调用，组合解决问题。就是说，在进行面向对象编程的过程中，要把属性、行为等封装成对象，然后基于这些对象及对象的能力进行业务逻辑的实现。比如想造一辆车，上来想把车的各种属性定义出来，然后抽象成一个car类。
 
-　　[**面向对象的三大基本特征**](https://github.com/UnchainMyHeart/JavaStudy/blob/master/HollisKnowledgePlanet/%E7%9B%B4%E9%9D%A2Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%BA%94%E5%A4%A7%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99.md):封装、继承、多态；
+　　**面向对象的三大基本特征**:封装、继承、多态；
 
-　　**面向对象五大基本原则**:单一职责原则（Single-Responsibility Principle）、开放封闭原则（Open-Closed Principle）、Liskov替换原则（Liskov-Substitution Principle）、依赖倒置原则（Dependency-Inversion Principle）、接口隔离原则（Interface-Segregation Principle）。
+　　[**面向对象五大基本原则**](https://github.com/UnchainMyHeart/JavaStudy/blob/master/HollisKnowledgePlanet/%E7%9B%B4%E9%9D%A2Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%BA%94%E5%A4%A7%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99.md):单一职责原则（Single-Responsibility Principle）、开放封闭原则（Open-Closed Principle）、Liskov替换原则（Liskov-Substitution Principle）、依赖倒置原则（Dependency-Inversion Principle）、接口隔离原则（Interface-Segregation Principle）。
 
 #### 2.*Java和C++同为面向对象语言，Java和C++主要区别有哪些？双方个有哪些优缺点？*
 
