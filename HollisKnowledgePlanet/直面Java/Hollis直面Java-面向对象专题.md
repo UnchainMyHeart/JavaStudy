@@ -69,8 +69,8 @@
       System.out.println("print in pass , user is " + user);
    }
    //结果
-   print in pass , name is hollischuang
-   print in main , name is Hollis
+   print in pass , user is User{name='hollischuang', gender='Male'}
+   print in main , user is User{name='hollischuang', gender='Male'}
 ```
 
 　　**按共享传递**:是指在调用函数时，传递给函数的是实参的地址的拷贝（如果实参在栈中，则直接拷贝该值）。在函数内部对参数进行操作时，需要先拷贝的地址寻找到具体的值，再进行操作。如果该值在栈中，那么因为是直接拷贝的值，所以函数内部对参数进行操作不会对外部变量产生影响。如果原来拷贝的是原值在堆中的地址，那么需要先根据该地址找到堆中对应的位置，再进行操作。因为传递的是地址的拷贝所以函数内对值的操作对外部变量是可见的。
