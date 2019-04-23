@@ -183,7 +183,7 @@
 | 作用域，可见性 | 当前类 | 同一包 | 子类 | 其他包 |
 | -------------- | ------ | ------ | ---- | ------ |
 | public         | Y      | Y      | Y    | Y      |
-| protected      | Y      | Y      | N    | N      |
+| protected      | Y      | Y      | Y    | N      |
 | default        | Y      | Y      | N    | N      |
 | private        | Y      | N      | N    | N      |
 
